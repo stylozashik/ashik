@@ -32,7 +32,7 @@
                     <a href="#"><img src="{{ asset('frontend/img/logo/dark.png') }}" alt="" /></a>
                 </div>
                 <div class="iknow_tm_button btn-outline">
-                    <a href="{{ asset('storage/downloads/Curriculam_Vitae-SE_Ashikur.pdf') }}">Download CV</a>
+                    <a href="{{ asset('storage/downloads/Curriculam_Vitae-SE_Ashikur.pdf') }}"><i class="fa-solid fa-cloud-arrow-down"></i> Download CV</a>
                 </div>
             </div>
         </div>
@@ -77,10 +77,11 @@
             <!-- SOCIAL -->
             <div class="social_list">
                 <ul>
-                    <li><a href="#"><img class="svg" src="{{ asset('frontend/img/svg/social/facebook-2.svg') }}" alt="" /></a></li>
-                    <li><a href="#"><img class="svg" src="{{ asset('frontend/img/svg/social/twitter-2.svg') }}" alt="" /></a></li>
-                    <li><a href="#"><img class="svg" src="{{ asset('frontend/img/svg/social/youtube-3.svg') }}" alt="" /></a></li>
-                    <li><a href="#"><img class="svg" src="{{ asset('frontend/img/svg/social/instagram-2.svg') }}" alt="" /></a></li>
+                    <li><a href="https://www.freelancer.com/u/rexbdsoft" target="_blank"><img class="svg" src="{{ asset('frontend/img/svg/social/freelancer.svg') }}" alt="" /></a></li>
+                    <li><a href="https://www.facebook.com/ashikur.rahaman99/" target="_blank"><img class="svg" src="{{ asset('frontend/img/svg/social/facebook-2.svg') }}" alt="" /></a></li>
+                    <li><a href="https://www.linkedin.com/in/ashikur-rahaman-bd/" target="_blank"><img class="svg" src="{{ asset('frontend/img/svg/social/linkedin-2.svg') }}" alt="" /></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCmaF9szqoFgt_gruJhP1hjw" target="_blank"><img class="svg" src="{{ asset('frontend/img/svg/social/youtube-3.svg') }}" alt="" /></a></li>
+                    
                 </ul>
             </div>
             <!-- /SOCIAL -->
@@ -135,7 +136,7 @@
             <!-- HERO -->
             <div class="iknow_tm_hero_fifth" id="home">
                 <div class="background">
-                    <div class="image" data-img-url="{{ asset('frontend/img/hero/10.jpg') }}"></div>
+                    <div class="image" data-img-url="{{ asset('frontend/img/hero/10_main.jpg') }}"></div>
                     <div class="overlay"></div>
                 </div>
                 <div class="content">
@@ -173,7 +174,7 @@
                                     </li>
                                     <li>
                                         <h3>Mail</h3>
-                                        <span>ceo@webrelu.com</span>
+                                        <span>ceo@webrelu.com</span><br>
                                     </li>
                                     <li>
                                         <h3>Phone</h3>
@@ -194,7 +195,7 @@
                     <div class="right">
                         <div class="iknow_tm_main_title">
                             <span>About Me</span>
-                            <h3>Software Engineer</h3>
+                            <h3>Software Developer</h3>
                         </div>
                         <div class="bigger_text">
                             <p>A Passionate UI/UX Designer and Full-Stack Web Developer based In Dhaka, BD</p>
@@ -203,7 +204,7 @@
                             <p>Hi! My name is Ashikur Rahaman. I am capable to analyze your business and can provide anykind of possible iT service from my side, I'm very passionate and dedicated to my work. With 6+ years experience as a professional Project Lead, I have acquired the skills and knowledge necessary to make your dream project as success as you are looking for.</p>
                         </div>
                         <div class="iknow_tm_button">
-                            <a href="{{ asset('storage/downloads/Curriculam_Vitae-SE_Ashikur.pdf') }}">Download CV</a>
+                            <a href="#contact">Contact Now</a>
                         </div>
                     </div>
                 </div>
@@ -215,7 +216,7 @@
                 <div class="iknow_tm_resume">
                     <div class="iknow_tm_main_title">
                         <span>Resume</span>
-                        <h3>Combination of Skill &amp; Experience</h3>
+                        <h3>Summary of Education,Skill &amp; Experience</h3>
                     </div>
                     <div class="resume_inner">
                         <div class="left">
@@ -229,15 +230,15 @@
                                         <div class="list_inner">
                                             <div class="short">
                                                 <div class="job">
-                                                    <h3>Cognitive Sciences</h3>
-                                                    <span>University of Maine</span>
+                                                    <h3>Bachelor of Science in Software Engineering</h3>
+                                                    <span>Daffodil International University</span>
                                                 </div>
                                                 <div class="year">
-                                                    <span>2018 - 2020</span>
+                                                    <span>2018 - 2022</span>
                                                 </div>
                                             </div>
                                             <div class="text">
-                                                <p>The goal of cognitive science is to understand the principles of intelligence with the hope that this will lead to better comprehension.</p>
+                                                <p>Software engineering is important because specific software is needed in almost every industry, in every business, and for every function. It becomes more important as time goes on – if something breaks within your application portfolio, a quick, efficient, and effective fix needs to happen as soon as possible. My ecademic career taught me lot to understand this all concept in details.</p>
                                             </div>
                                         </div>
                                     </li>
@@ -1016,9 +1017,11 @@
         "Full Stack Web Developer",
         "Passionate Graphics Designer",
         "Professional Business Analyst",
-        "Data Science and Machine Learning Expert"
+        "Data Science and Machine Learning Expert",
+        "Software Architecture",
+        "Team Dedicated Software Developer"
         ],
-        typeSpeed : 90,
+        typeSpeed : 80,
         backSpeed : 20,
         loop : true
     });
