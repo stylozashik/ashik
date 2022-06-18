@@ -61,7 +61,7 @@
                         <li><a href="#about">About</a></li>
                         <li><a href="#resume">Resume</a></li>
                         <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#service">Service</a></li>
+                        <li><a href="#services">Services</a></li>
                         <li><a href="#testimonials">Testimonial</a></li>
                         <li><a href="#news">Blog</a></li>
                         <li><a href="#contact">Contact</a></li>
@@ -111,19 +111,19 @@
                     </li>
                     <li>
                         <img class="svg" src="{{ asset('frontend/img/svg/gear.svg') }}" alt="" />
-                        <span>Service</span>
-                        <a class="iknow_tm_full_link" href="#service"></a>
+                        <span>Services</span>
+                        <a class="iknow_tm_full_link" href="#services"></a>
                     </li>
                     <li>
                         <img class="svg" src="{{ asset('frontend/img/svg/message.svg') }}" alt="" />
                         <span>Testimonial</span>
                         <a class="iknow_tm_full_link" href="#testimonials"></a>
                     </li>
-                    <li>
+                    {{-- <li>
                         <img class="svg" src="{{ asset('frontend/img/svg/writing.svg') }}" alt="" />
                         <span>Blog</span>
                         <a class="iknow_tm_full_link" href="#news"></a>
-                    </li>
+                    </li> --}}
                     <li>
                         <img class="svg" src="{{ asset('frontend/img/svg/letter.svg') }}" alt="" />
                         <span>Contact</span>
@@ -198,7 +198,7 @@
                             <h3>Software Developer</h3>
                         </div>
                         <div class="bigger_text">
-                            <p>A Passionate UI/UX Designer and Full-Stack Web Developer based In Dhaka, BD</p>
+                            <p>A Passionate UI/UX Designer and Full-Stack Software Developer based In Dhaka, BD</p>
                         </div>
                         <div class="text">
                             <p>Hi! My name is Ashikur Rahaman. I am capable to analyze your business and can provide anykind of possible iT service from my side, I'm very passionate and dedicated to my work. With 6+ years experience as a professional Project Lead, I have acquired the skills and knowledge necessary to make your dream project as success as you are looking for.</p>
@@ -246,15 +246,15 @@
                                         <div class="list_inner">
                                             <div class="short">
                                                 <div class="job">
-                                                    <h3>Civil Engineering</h3>
-                                                    <span>University of Texas</span>
+                                                    <h3>Higher Secondary School Certificate</h3>
+                                                    <span>Wills Little Flower School &amp; College</span>
                                                 </div>
                                                 <div class="year">
-                                                    <span>2016 - 2017</span>
+                                                    <span>2012 - 2014</span>
                                                 </div>
                                             </div>
                                             <div class="text">
-                                                <p>Civil engineering is arguably the oldest engineering discipline. It deals with the built environment and can be dated to the first time someone placed a roof.</p>
+                                                <p>With a good secondary school education, students get a chance to explore different avenues and possible career choices. Higher education gives children the skills to excel in a particular area of interest , thus making them more of a possible prospect for employers to pursue..</p>
                                             </div>
                                         </div>
                                     </li>
@@ -262,15 +262,15 @@
                                         <div class="list_inner">
                                             <div class="short">
                                                 <div class="job">
-                                                    <h3>Bachelor of Science</h3>
-                                                    <span>Univercity of Dhaka</span>
+                                                    <h3>Secondary School Certificate</h3>
+                                                    <span>Ahmed Bawany Academy</span>
                                                 </div>
                                                 <div class="year">
-                                                    <span>2012 - 2015</span>
+                                                    <span>2010 - 2012</span>
                                                 </div>
                                             </div>
                                             <div class="text">
-                                                <p>This project is called a thesis and is usually presented in front of a group of people, including university professors who will evaluate it and let the student..</p>
+                                                <p>Secondary school education is one of the most important phases of every student's life. It has been one of the best ways to help empower girls, provide a foundation to many youngsters, reduce infant mortality rates in India and elevate a person's economic status..</p>
                                             </div>
                                         </div>
 
@@ -287,15 +287,15 @@
                                         <div class="list_inner">
                                             <div class="short">
                                                 <div class="job">
-                                                    <h3>UI/UX Designer</h3>
-                                                    <span>Envato Market</span>
+                                                    <h3>Software Engineer</h3>
+                                                    <span>Univeral Study Abroad</span>
                                                 </div>
                                                 <div class="year">
-                                                    <span>2018 - running</span>
+                                                    <span>08 May 2022 - Current</span>
                                                 </div>
                                             </div>
                                             <div class="text">
-                                                <p>Web Developers are build a website’s core structure using coding languages, while designers are more visually creative and user-focused.</p>
+                                                <p>Joined to support IT team for the latest software development.Collected & analyzed requirements to get the insights.Designed whole database, UI&UX for the entire system. Working to improve previous product quality.Supporting on testing part to gain software acceptability.</p>
                                             </div>
                                         </div>
                                     </li>
@@ -303,15 +303,33 @@
                                         <div class="list_inner">
                                             <div class="short">
                                                 <div class="job">
-                                                    <h3>Creative Designer</h3>
-                                                    <span>Bahanno Digital</span>
+                                                    <h3>Backend Engineer</h3>
+                                                    <span>DIU Data Science Lab</span>
                                                 </div>
                                                 <div class="year">
-                                                    <span>2015 - 2017</span>
+                                                    <span>13 Jun 2021 - 04 Dec 2021</span>
                                                 </div>
                                             </div>
                                             <div class="text">
-                                                <p>Web Developers are build a website’s core structure using coding languages, while designers are more visually creative and user-focused.</p>
+                                                <p>Collected desired requirements from authority.Designed and gathered useful resources.Supervised a team to follow long with coding.Enhance system design and data pipeline process.Deployed and maintained the system properly.
+                                                    </p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="list_inner">
+                                            <div class="short">
+                                                <div class="job">
+                                                    <h3>Project Lead</h3>
+                                                    <span>RexBDsoft</span>
+                                                </div>
+                                                <div class="year">
+                                                    <span>21 Nov 2016 – 03 May 2018</span>
+                                                </div>
+                                            </div>
+                                            <div class="text">
+                                                <p>Everyday bided on different kinds of projects.Collect, analyze and research about projects in depth.Designed full working prototypes regarding requirements.Estimated budget for many of those projects.Delivered projects on desired time mostly.Maintained projects after its completion.
+                                                </p>
                                             </div>
                                         </div>
                                     </li>
@@ -321,21 +339,45 @@
                         <div class="right">
                             <div class="skills_list">
                                 <div class="iknow_tm_resume_title">
-                                    <h3>Personal Skills</h3>
+                                    <h3>Soft Skills</h3>
                                     <span class="shape"></span>
                                 </div>
                                 <div class="personal">
                                     <div class="dodo_progress">
-                                        <div class="progress_inner" data-value="90">
-                                            <span><span class="label">Time Management</span><span class="number">90%</span></span>
+                                        <div class="progress_inner" data-value="98">
+                                            <span><span class="label">Time Management</span><span class="number">98%</span></span>
                                             <div class="background"><div class="bar"><div class="bar_in"></div></div></div>
                                         </div>
-                                        <div class="progress_inner" data-value="70" >
-                                            <span><span class="label">Effeciency</span><span class="number">70%</span></span>
+                                        <div class="progress_inner" data-value="85" >
+                                            <span><span class="label">Multi Tasking</span><span class="number">85%</span></span>
                                             <div class="background"><div class="bar"><div class="bar_in"></div></div></div>
                                         </div>
-                                        <div class="progress_inner" data-value="80">
-                                            <span><span class="label">Intigrity</span><span class="number">80%</span></span>
+                                        <div class="progress_inner" data-value="95">
+                                            <span><span class="label">Presentation</span><span class="number">95%</span></span>
+                                            <div class="background"><div class="bar"><div class="bar_in"></div></div></div>
+                                        </div>
+                                        <div class="progress_inner" data-value="90" >
+                                            <span><span class="label">Story Telling</span><span class="number">90%</span></span>
+                                            <div class="background"><div class="bar"><div class="bar_in"></div></div></div>
+                                        </div>
+                                        <div class="progress_inner" data-value="100" >
+                                            <span><span class="label">Listening</span><span class="number">100%</span></span>
+                                            <div class="background"><div class="bar"><div class="bar_in"></div></div></div>
+                                        </div>
+                                        <div class="progress_inner" data-value="90" >
+                                            <span><span class="label">Email Writing</span><span class="number">90%</span></span>
+                                            <div class="background"><div class="bar"><div class="bar_in"></div></div></div>
+                                        </div>
+                                        <div class="progress_inner" data-value="85" >
+                                            <span><span class="label">Public Speaking</span><span class="number">85%</span></span>
+                                            <div class="background"><div class="bar"><div class="bar_in"></div></div></div>
+                                        </div>
+                                        <div class="progress_inner" data-value="98" >
+                                            <span><span class="label">Budget Negotiation</span><span class="number">98%</span></span>
+                                            <div class="background"><div class="bar"><div class="bar_in"></div></div></div>
+                                        </div>
+                                        <div class="progress_inner" data-value="99" >
+                                            <span><span class="label">Report & Proposal Writing</span><span class="number">99%</span></span>
                                             <div class="background"><div class="bar"><div class="bar_in"></div></div></div>
                                         </div>
                                     </div>
@@ -343,7 +385,7 @@
                             </div>
                             <div class="skills_list">
                                 <div class="iknow_tm_resume_title">
-                                    <h3>Software Skills</h3>
+                                    <h3>Programming Skills</h3>
                                     <span class="shape"></span>
                                 </div>
                                 <div class="software">
@@ -351,26 +393,38 @@
                                         <ul>
                                             <li>
                                                 <div class="list_inner">
-                                                    <div class="myCircle" data-value="0.8"></div>
-                                                    <div class="title"><h3>Ms Office</h3></div>
+                                                    <div class="myCircle" data-value="0.95"></div>
+                                                    <div class="title"><h3>C</h3></div>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="list_inner">
-                                                    <div class="myCircle" data-value="0.75"></div>
-                                                    <div class="title"><h3>Photoshop</h3></div>
+                                                    <div class="myCircle" data-value="0.98"></div>
+                                                    <div class="title"><h3>PHP</h3></div>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="list_inner">
                                                     <div class="myCircle" data-value="0.9"></div>
-                                                    <div class="title"><h3>Illustrator</h3></div>
+                                                    <div class="title"><h3>Python</h3></div>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="list_inner">
-                                                    <div class="myCircle" data-value="0.65"></div>
-                                                    <div class="title"><h3>Figma</h3></div>
+                                                    <div class="myCircle" data-value="0.85"></div>
+                                                    <div class="title"><h3>Javascript</h3></div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="list_inner">
+                                                    <div class="myCircle" data-value="0.85"></div>
+                                                    <div class="title"><h3>Java</h3></div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="list_inner">
+                                                    <div class="myCircle" data-value="0.98"></div>
+                                                    <div class="title"><h3>SQL</h3></div>
                                                 </div>
                                             </li>
                                         </ul>
@@ -564,7 +618,7 @@
             <!-- /PORTFOLIO -->
 
             <!-- SERVICES -->
-            <div class="iknow_tm_section_new" id="service">
+            <div class="iknow_tm_section_new" id="services">
                 <div class="iknow_tm_services">
                     <div class="iknow_tm_main_title">
                         <span>Service</span>
@@ -574,52 +628,10 @@
                         <ul>
                             <li>
                                 <div class="list_inner">
-                                    <span class="icon"><img class="svg" src="{{ asset('frontend/img/svg/squares.svg') }}" alt="" /></span>
-                                    <h3 class="title">Wireframing</h3>
-                                    <p class="text">Web development is the building and maintenance of websites. it’s the work that...</p>
-                                    <a class="iknow_tm_full_link" href="#"></a>
-                                    <div class="hidden_content">
-                                        <div class="service_informations">
-                                            <div class="image">
-                                                <img src="img/thumbs/4-2.jpg" alt="" />
-                                                <div class="main" data-img-url="{{ asset('frontend/img/service/1.jpg') }}"></div>
-                                            </div>
-                                            <div class="description">
-                                                <p>iKnow is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.</p>
-                                                <p>In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.</p>
-                                                <p>That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="list_inner">
-                                    <span class="icon"><img class="svg" src="{{ asset('frontend/img/svg/physics.svg') }}" alt="" /></span>
-                                    <h3 class="title">Prototype</h3>
-                                    <p class="text">Web development is the building and maintenance of websites. it’s the work that...</p>
-                                    <a class="iknow_tm_full_link" href="#"></a>
-                                    <div class="hidden_content">
-                                        <div class="service_informations">
-                                            <div class="image">
-                                                <img src="img/thumbs/4-2.jpg" alt="" />
-                                                <div class="main" data-img-url="{{ asset('frontend/img/service/2.jpg') }}"></div>
-                                            </div>
-                                            <div class="description">
-                                                <p>iKnow is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.</p>
-                                                <p>In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.</p>
-                                                <p>That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="list_inner">
                                     <span class="icon"><img class="svg" src="{{ asset('frontend/img/svg/web.svg') }}" alt="" /></span>
-                                    <h3 class="title">UI Design</h3>
-                                    <p class="text">Web development is the building and maintenance of websites. it’s the work that...</p>
-                                    <a class="iknow_tm_full_link" href="#"></a>
+                                    <h3 class="title">Project Management</h3>
+                                    <p class="text">Project management is the application of processes, methods, skills, knowledge and experience to achieve specific project objectives.</p>
+                                    {{-- <a class="iknow_tm_full_link" href="#"></a>
                                     <div class="hidden_content">
                                         <div class="service_informations">
                                             <div class="image">
@@ -632,16 +644,57 @@
                                                 <p>That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.</p>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> --}}
                                 </div>
                             </li>
-
+                            <li>
+                                <div class="list_inner">
+                                    <span class="icon"><img class="svg" src="{{ asset('frontend/img/svg/squares.svg') }}" alt="" /></span>
+                                    <h3 class="title">Wireframing</h3>
+                                    <p class="text">Wireframing is a process where designers draw overviews of interactive products to establish the structure and flow of possible design solutions.</p>
+                                    {{-- <a class="iknow_tm_full_link" href="#"></a> --}}
+                                    {{-- <div class="hidden_content">
+                                        <div class="service_informations">
+                                            <div class="image">
+                                                <img src="img/thumbs/4-2.jpg" alt="" />
+                                                <div class="main" data-img-url="{{ asset('frontend/img/service/1.jpg') }}"></div>
+                                            </div>
+                                            <div class="description">
+                                                <p>iKnow is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.</p>
+                                                <p>In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.</p>
+                                                <p>That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.</p>
+                                            </div>
+                                        </div>
+                                    </div> --}}
+                                </div>
+                            </li>
+                            <li>
+                                <div class="list_inner">
+                                    <span class="icon"><img class="svg" src="{{ asset('frontend/img/svg/physics.svg') }}" alt="" /></span>
+                                    <h3 class="title">Prototype Design</h3>
+                                    <p class="text">Prototyping is an experimental process where design teams implement ideas into tangible forms from paper to digital. </p>
+                                    {{-- <a class="iknow_tm_full_link" href="#"></a>
+                                    <div class="hidden_content">
+                                        <div class="service_informations">
+                                            <div class="image">
+                                                <img src="img/thumbs/4-2.jpg" alt="" />
+                                                <div class="main" data-img-url="{{ asset('frontend/img/service/2.jpg') }}"></div>
+                                            </div>
+                                            <div class="description">
+                                                <p>iKnow is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.</p>
+                                                <p>In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.</p>
+                                                <p>That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.</p>
+                                            </div>
+                                        </div>
+                                    </div> --}}
+                                </div>
+                            </li>
                             <li>
                                 <div class="list_inner">
                                     <span class="icon"><img class="svg" src="{{ asset('frontend/img/svg/user.svg') }}" alt="" /></span>
-                                    <h3 class="title">Personal Creation</h3>
-                                    <p class="text">Web development is the building and maintenance of websites. it’s the work that...</p>
-                                    <a class="iknow_tm_full_link" href="#"></a>
+                                    <h3 class="title">Business Analysis</h3>
+                                    <p class="text">Business analysis is a professional discipline of identifying business needs and determining solutions to business problems.</p>
+                                    {{-- <a class="iknow_tm_full_link" href="#"></a>
                                     <div class="hidden_content">
                                         <div class="service_informations">
                                             <div class="image">
@@ -654,15 +707,15 @@
                                                 <p>That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.</p>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> --}}
                                 </div>
                             </li>
                             <li>
                                 <div class="list_inner">
                                     <span class="icon"><img class="svg" src="{{ asset('frontend/img/svg/briefcase.svg') }}" alt="" /></span>
-                                    <h3 class="title">Case Study</h3>
-                                    <p class="text">Web development is the building and maintenance of websites. it’s the work that...</p>
-                                    <a class="iknow_tm_full_link" href="#"></a>
+                                    <h3 class="title">Web Development</h3>
+                                    <p class="text">Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services.</p>
+                                    {{-- <a class="iknow_tm_full_link" href="#"></a>
                                     <div class="hidden_content">
                                         <div class="service_informations">
                                             <div class="image">
@@ -675,15 +728,15 @@
                                                 <p>That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.</p>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> --}}
                                 </div>
                             </li>
                             <li>
                                 <div class="list_inner">
                                     <span class="icon"><img class="svg" src="{{ asset('frontend/img/svg/writing_2.svg') }}" alt="" /></span>
-                                    <h3 class="title">Experience Design</h3>
-                                    <p class="text">Web development is the building and maintenance of websites. it’s the work that...</p>
-                                    <a class="iknow_tm_full_link" href="#"></a>
+                                    <h3 class="title">Machine Learning</h3>
+                                    <p class="text">Machine learning is a type of artificial intelligence that allows software applications to become more accurate at predicting outcomes.</p>
+                                    {{-- <a class="iknow_tm_full_link" href="#"></a>
                                     <div class="hidden_content">
                                         <div class="service_informations">
                                             <div class="image">
@@ -696,7 +749,7 @@
                                                 <p>That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.</p>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> --}}
                                 </div>
                             </li>
                         </ul>
@@ -716,16 +769,16 @@
                         <div class="list_inner">
                             <div class="in">
                                 <div class="text">
-                                    <p>These people really know what they are doing! Great customer support availability and supperb kindness. I am very happy that I've purchased this liscense!!!</p>
+                                    <p>Thank you for everything. Did a great job within such a less time. </p>
                                 </div>
                                 <div class="details">
                                     <div class="left">
                                         <div class="avatar">
-                                            <div class="main" data-img-url="{{ asset('frontend/img/testimonials/1.jpg') }}"></div>
+                                            <div class="main" data-img-url="{{ asset('frontend/img/country/usa.webp') }}"></div>
                                         </div>
                                         <div class="info">
-                                            <h3>Jecob Oramson</h3>
-                                            <span>Designer</span>
+                                            <h3>Predovic M.</h3>
+                                            <span>Business Man</span>
                                         </div>
                                     </div>
                                     <div class="right">
@@ -737,20 +790,20 @@
                         <div class="list_inner">
                             <div class="in">
                                 <div class="text">
-                                    <p>The design is elegant. The customer support on this product is also amazing. I would highly recommend you to purchase templates from the Marketify team!</p>
+                                    <p>It was awesome to working with him and his virtual but powerful team.</p>
                                 </div>
                                 <div class="details">
                                     <div class="left">
                                         <div class="avatar">
-                                            <div class="main" data-img-url="{{ asset('frontend/img/testimonials/2.jpg') }}"></div>
+                                            <div class="main" data-img-url="{{ asset('frontend/img/country/romania.png') }}"></div>
                                         </div>
                                         <div class="info">
-                                            <h3>Kerry Hudson</h3>
-                                            <span>IBO. Corp</span>
+                                            <h3>Robertson C.</h3>
+                                            <span>Executive</span>
                                         </div>
                                     </div>
                                     <div class="right">
-                                        <img class="svg" src="img/svg/left-quote.svg" alt="" />
+                                        <img class="svg" src="{{ asset('frontend/img/svg/left-quote.svg') }}" alt="" />
                                     </div>
                                 </div>
                             </div>
@@ -758,16 +811,17 @@
                         <div class="list_inner">
                             <div class="in">
                                 <div class="text">
-                                    <p>Not only was customer support very fast, but the design is very professional. Will definitely be looking for new products in the future from this author.</p>
+                                    <p>Still working, but so far very good. Really awesome at quality service.</p>
                                 </div>
                                 <div class="details">
                                     <div class="left">
                                         <div class="avatar">
-                                            <div class="main" data-img-url="{{ asset('frontend/img/testimonials/3.jpg') }}"></div>
+                                            <div class="main" data-img-url="{{ asset('frontend/img/country/uk.png') }}"></div>
                                         </div>
                                         <div class="info">
-                                            <h3>Albert Walker</h3>
-                                            <span>Singer</span>
+                                            <h3>
+                                                Iramen A.</h3>
+                                            <span>Music Director</span>
                                         </div>
                                     </div>
                                     <div class="right">
@@ -779,15 +833,15 @@
                     <div class="list_inner">
                         <div class="in">
                             <div class="text">
-                                <p>The Author had done a great job, it's clean and easy to understand the code. Comment blocks made it really easy to read the code.</p>
+                                <p>I think he can do a good job if he follow long with time consistancy.</p>
                             </div>
                             <div class="details">
                                 <div class="left">
                                     <div class="avatar">
-                                        <div class="main" data-img-url="{{ asset('frontend/img/testimonials/4.jpg') }}"></div>
+                                        <div class="main" data-img-url="{{ asset('frontend/img/country/china.webp') }}"></div>
                                     </div>
                                     <div class="info">
-                                        <h3>Arnold Hookins</h3>
+                                        <h3>Zhijie L.</h3>
                                         <span>Photographer</span>
                                     </div>
                                 </div>
@@ -800,16 +854,16 @@
                     <div class="list_inner">
                         <div class="in">
                             <div class="text">
-                                <p>I can't believe I got support and my problem resolved in minutes from posting my question. Simply amazing team and amazing theme! Thank you!</p>
+                                <p>The work was delivered fast, way more before the deadline and within budget.</p>
                             </div>
                             <div class="details">
                                 <div class="left">
                                     <div class="avatar">
-                                        <div class="main" data-img-url="{{ asset('frontend/img/testimonials/5.jpg') }}"></div>
+                                        <div class="main" data-img-url="{{ asset('frontend/img/country/bd.png') }}"></div>
                                     </div>
                                     <div class="info">
-                                        <h3>Aura Brooklyn</h3>
-                                        <span>Fashion Model</span>
+                                        <h3>Mahadi R.</h3>
+                                        <span>Freelancer</span>
                                     </div>
                                 </div>
                                 <div class="right">
@@ -823,7 +877,7 @@
         </div>
         <!-- /TESTIMONIALS -->
 
-        <!-- NEWS -->
+        {{-- <!-- NEWS -->
         <div class="iknow_tm_section_new" id="news">
             <div class="iknow_tm_news">
                 <div class="iknow_tm_main_title">
@@ -907,7 +961,7 @@
                 </div>
             </div>
         </div>
-        <!-- /NEWS -->
+        <!-- /NEWS --> --}}
 
         <!-- CONTACT -->
         <div class="iknow_tm_section_new" id="contact">
@@ -924,7 +978,7 @@
                                     <span class="icon"><img class="svg" src="{{ asset('frontend/img/svg/smartphone.svg') }}" alt="" /></span>
                                     <div class="short">
                                         <h3>Call Me</h3>
-                                        <span>+123 456 7890</span>
+                                        <span>+880 1820829119</span>
                                     </div>
                                 </div>
                             </li>
@@ -932,8 +986,8 @@
                                 <div class="list_inner">
                                     <span class="icon"><img class="svg" src="{{ asset('frontend/img/svg/letter.svg') }}" alt="" /></span>
                                     <div class="short">
-                                        <h3>Email Us</h3>
-                                        <span><a href="#">hello@iknow.com</a></span>
+                                        <h3>Email</h3>
+                                        <span><a href="#">stylozashik@gmail.com</a></span>
                                     </div>
                                 </div>
                             </li>
@@ -942,7 +996,7 @@
                                     <span class="icon"><img class="svg" src="{{ asset('frontend/img/svg/placeholder.svg') }}" alt="" /></span>
                                     <div class="short">
                                         <h3>Address</h3>
-                                        <span>20, Bardeshi, Amin Bazar</span>
+                                        <span>Dhaka, Bangladesh</span>
                                     </div>
                                 </div>
                             </li>
@@ -965,7 +1019,7 @@
                                     <textarea id="message" placeholder="Your message here"></textarea>
                                 </div>
                                 <div class="iknow_tm_button">
-                                    <a id="send_message" href="#">Submit Now</a>
+                                    <a id="send_message" href="#">Send Now</a>
                                 </div>
 
                                 <!-- If you want change mail address to yours, just open "modal" folder >> contact.php and go to line 4 and change detail to yours.  -->
